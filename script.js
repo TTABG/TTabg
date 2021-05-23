@@ -10,7 +10,7 @@ s.addEventListener("click", function(){
     sc.setAttribute("style", "text-align: center; font-size: 30px;");
     score += document.querySelectorAll('input[type="checkbox"]:checked').length;
     var t = "";
-    if(score < 6){
+    if(score < 7){
         t = "Not an ABG<br><br>You do not exibhit any ABG esque traits, so either not an ABG or just really REALLY good at hiding it"
     }
     else if(score > 7 && score < 13){
